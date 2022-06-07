@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1548602088-9d12a4f9c10f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #ffffff90;
+    border-radius: 0.5rem;
+    padding: 30px;
+}
+
