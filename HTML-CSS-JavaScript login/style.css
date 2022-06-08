@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url("https://images.unsplash.com/photo-1548602088-9d12a4f9c10f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80");
+    background-image: url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=913&q=80");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed ;
@@ -24,5 +24,101 @@ background-attachment: fixed ;
     background-color: #ffffff90;
     border-radius: 0.5rem;
     padding: 30px;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    
 }
 
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7236AD;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #7236AD;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #4038a0
+}
+
+.label-float label{
+    color: #7236AD;
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 13px;
+    /* transition transição por segundos */
+    transition: all .3s ease-out
+}
+
+.label-float input:focus + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #7236AD;
+}
+
+button{
+    background-color: transparent;
+    border-color: #7236AD;
+    color: #7236AD;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover{
+    background-color: #4038a0;
+    color: white;
+    transition: all .3s ease-out
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+p{
+    font-size: 14pt;
+    color: #4038a0;
+    text-align: center;
+}
+
+a{color: #7a3077;
+    font-weight: bold;
+text-decoration: none;}
+
+a:hover{
+    color: #4038a0;
+    transition: all .3s ease-out
+}
